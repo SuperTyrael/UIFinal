@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root {
+    --body-font: "Poppins", sans-serif;
+
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1.25rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.75rem;
+    --tiny-font-size: 0.625rem;
+
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    --color-intro: #f6f5f0;
+    --color-navlink: #f0e4d8;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.navbar{
+    background-color: linear-gradient(#222);
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 30rem;
+}
+
+.navbar-nav p{
+    color: var(--color-intro);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+
+}
+
+.nav-item{
+    color: antiquewhite;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+}
+
+.navbar-brand img{
+    border:8px solid #e38528
+}
+
+header .logo{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header .logo span{
+    text-transform: uppercase;
+}
+
+.rounded-circle{
+    width: 180px;
+    height: 180px;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
+#content-wrapper {
+        padding-left: 30rem;
+    }
+
+section{
+    background-color: (255,255,255, 0.1);
+}
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+    height: 22vh;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+    width: 35vw;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+.card-custom:hover .card-custom-image{
+    box-shadow: 0 10px 10px rgba(99,156,217, 0.3)
+}
+
+/* .back-button{
+    position: fixed;
+} */
